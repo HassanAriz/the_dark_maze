@@ -1,0 +1,172 @@
+﻿table
+{
+ 	border :3px solid  black;
+}
+
+html
+{
+	background-color: grey;
+	text-align: center;
+	padding:200;
+	margin-left:350;
+	margin-right:100;
+}
+
+form 
+{
+	text-align: center;
+	margin-right: 200;
+}
+.C0
+{
+	border-left :1px solid  grey;
+	border-right :1px solid grey;
+	border-top :1px solid grey; 
+	border-bottom:1px solid grey;
+ }
+
+.C1
+{
+	border-left :1px solid  grey;
+	border-right :1px solid grey;
+	border-top :1px solid grey;
+	border-bottom:3px solid black;
+
+}
+
+.C2
+{
+	border-left :1px solid  grey;
+	border-right :3px solid black;
+	border-top :1px solid grey;
+	border-bottom:1px solid grey;
+
+}
+
+.C3
+{
+	border-left :1px solid  grey;
+	border-right :3px solid black;
+	border-top :1px solid grey;
+	border-bottom:3px solid black;
+
+}
+.C4
+{ 
+	border-left :1px solid  grey;
+	border-right :1px solid  grey;
+	border-top :3px solid black;	
+	border-bottom:1px solid grey;
+
+
+}
+
+.C5
+{ 
+	border-left :1px solid  grey;
+	border-right :1px solid grey;
+	border-top :3px solid black;
+	border-bottom:3px solid black;
+}
+
+.C6
+{ 
+	border-left :1px solid grey;
+	border-right :3px solid black;
+	border-top :3px solid black;
+	border-bottom:1px solid grey;
+}
+
+.C7
+{ 
+	border-left :1px solid  grey;
+	border-right :3px solid black;
+	border-top :3px solid black;
+	border-bottom:3px solid black;
+}
+
+.C8
+{
+ 	border-left :3px solid black;
+	border-right :1px solid grey;
+	border-top :1px solid grey;
+	border-bottom:1px solid grey;
+ 
+
+}
+
+.C9
+{
+ 	border-left :3px solid black;
+	border-right :1px solid grey;
+	border-top :1px solid grey;
+	border-bottom:3px solid black;
+ 
+ 
+}
+
+.C10
+{
+ 	border-left :3px solid  black;
+	border-right :3px solid black;
+	border-top :1px solid grey;
+	border-bottom:1px solid grey;
+ 
+
+}
+
+.C11
+{
+	border-left :3px solid  black;
+	border-right :3px solid black;
+	border-top :1px solid grey;
+	border-bottom:3px solid black;
+ 
+
+}
+
+.C12
+{
+	border-left :3px solid  black;
+	border-right :1px solid grey;
+	border-top :3px solid black;
+	border-bottom:1px solid grey;
+
+
+}
+
+.C13
+{
+	border-left :3px solid  black;
+	border-right :1px solid grey;
+	border-top :3px solid black;
+	border-bottom:3px solid black;
+
+
+}
+
+.C14
+{
+	border-left :3px solid  black;
+	border-right :3px solid black;
+	border-top :3px solid black;
+	border-bottom:1px solid grey;
+
+
+}
+
+.C15
+{
+ 	border-left :3px solid black;
+	border-right :3px solid black;
+	border-top :3px solid black;
+	border-bottom:3px solid black;
+}
+
+@media screen and (max-width: 640px) {
+
+  table {
+    	display: auto;
+    	width: 100px;
+  }
+}

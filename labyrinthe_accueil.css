@@ -1,0 +1,25 @@
+﻿@import url('https://fonts.googleapis.com/css?family=Monoton');
+
+
+body
+{
+	background-color: black;
+        color: white;
+	text-align:center;
+	font-size:large;
+
+}
+
+h3
+{
+	font-family: 'Monoton', cursive;
+	font-size:90px; 
+ 
+}
+
+input
+{
+	color:black; 
+	border-radius:26px;
+}
+
