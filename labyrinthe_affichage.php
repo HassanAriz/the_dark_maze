@@ -187,84 +187,16 @@ function generer_tableau($col,$lig)
 		{
 			// Ajoute la colonne dans la ligne avec le code HTML requis : balise <td> .... </td>
 		//	$ligne .= '<td>&nbsp;&nbsp;&nbsp;&nbsp;';
-			
-			$ligne .= ' <td class=';
+			$labysave = $laby[$l][$c];
+			$ligne .= ' <td class="C';
+			$ligne .= $labysave;
 		
-			    switch($laby[$l][$c])
-                   {
-
-						case 0:
-						$ligne .= ' "C0" ';
-						break; 
-		   
-                      	case 1:
-                     	$ligne .= '  "C1"';
-                     	break;
-
-                      	case 2:
-                       	$ligne .= ' "C2" ';
-                  		break;
-
-                     	case 3:
-                      	$ligne .= '  "C3"';
-                      	break;
-
-                     	case 4:
-                      	$ligne .= ' "C4" ';
- 						break;
-                   
-                     	case 5:
-                      	$ligne .= ' "C5" ';
- 						break;
-
-                     	case 6:
-                      	$ligne .= ' "C6" ';
- 						break;
-
-                     	case 7:
-                      	$ligne .= ' "C7" ';
- 						break;
-
-                     	case 8:
-                      	$ligne .= ' "C8" ';
- 						break;
-
-                     	case 9:
-                      	$ligne .= ' "C9"  ';
- 						break;
-
-                     	case 10:
-                      	$ligne .= '"C10"  ';
- 						break;
-
-                     	case 11:
-                      	$ligne .= '"C11"  ';
- 						break;
-
-                     	case 12:
-                      	$ligne .= ' "C12" ';
- 						break;
-
-                      	case 13:
-                      	$ligne .= ' "C13" ';
- 						break;
-
-                     	case 14:
-                      	$ligne .= ' "C14" ';
- 						break;
-
-                     	case 15:
-                      	$ligne .= ' "C15" ';
- 						break;
-
-                        }
-
                        
 
-		$ligne .='style="width:50px; height:50px;"> </td>';
+		$ligne .='"> </td>';
 	}
 		// Ferme la ligne avec le code HTML requis : balise </tr>
-		$ligne .= '</trstyle="width:50px; height:50px;"> '.$cr;
+		$ligne .= '</tr> '.$cr;
 
 		// Ajoute la ligne au tableau
 		$tableau .= $ligne;
@@ -276,25 +208,12 @@ function generer_tableau($col,$lig)
 
 }
 
-// Récuperer le code HTML du tableau dans une variable
+// RÃ©cuperer le code HTML du tableau dans une variable
 $tableau = generer_tableau(5,5);
 
-// Afficher ce tableau ce qui l'ajoute �  la page
+// Afficher ce tableau ce qui l'ajoute Ã  la page
 echo $tableau;
 
-/*echo '	<form method="post">
- 
-        <input type= "submit" value= "Commencer">
-
-       
-</form>';
- if(isset($_POST['Commencer']))
-        {
-        	$position_ligne++;
-        	header(action="labyrinthephp1.php");
-    
-        }
-        */
 
 ?>
 
